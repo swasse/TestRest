@@ -13,6 +13,11 @@
 		B5E8B5CB23D8444D00B4B5A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E8B5C923D8444D00B4B5A6 /* Main.storyboard */; };
 		B5E8B5CD23D8444F00B4B5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5E8B5CC23D8444F00B4B5A6 /* Assets.xcassets */; };
 		B5E8B5D023D8444F00B4B5A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5E8B5CE23D8444F00B4B5A6 /* LaunchScreen.storyboard */; };
+		B5E8B5D823D852FB00B4B5A6 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5D723D852FB00B4B5A6 /* DAO.swift */; };
+		B5E8B5DA23D853CA00B4B5A6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5D923D853CA00B4B5A6 /* Post.swift */; };
+		B5E8B5DC23D85E9100B4B5A6 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5DB23D85E9100B4B5A6 /* PostCollectionViewCell.swift */; };
+		B5E8B5DE23D87E1200B4B5A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5DD23D87E1100B4B5A6 /* User.swift */; };
+		B5E8B5E023D87E3F00B4B5A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5DF23D87E3F00B4B5A6 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		B5E8B5CC23D8444F00B4B5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5E8B5CF23D8444F00B4B5A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5E8B5D123D8444F00B4B5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5E8B5D723D852FB00B4B5A6 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		B5E8B5D923D853CA00B4B5A6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		B5E8B5DB23D85E9100B4B5A6 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
+		B5E8B5DD23D87E1100B4B5A6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B5E8B5DF23D87E3F00B4B5A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				B5E8B5CC23D8444F00B4B5A6 /* Assets.xcassets */,
 				B5E8B5CE23D8444F00B4B5A6 /* LaunchScreen.storyboard */,
 				B5E8B5D123D8444F00B4B5A6 /* Info.plist */,
+				B5E8B5D723D852FB00B4B5A6 /* DAO.swift */,
+				B5E8B5D923D853CA00B4B5A6 /* Post.swift */,
+				B5E8B5DB23D85E9100B4B5A6 /* PostCollectionViewCell.swift */,
+				B5E8B5DD23D87E1100B4B5A6 /* User.swift */,
+				B5E8B5DF23D87E3F00B4B5A6 /* DetailViewController.swift */,
 			);
 			path = TestRest;
 			sourceTree = "<group>";
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E8B5D823D852FB00B4B5A6 /* DAO.swift in Sources */,
 				B5E8B5C823D8444D00B4B5A6 /* ViewController.swift in Sources */,
+				B5E8B5DC23D85E9100B4B5A6 /* PostCollectionViewCell.swift in Sources */,
 				B5E8B5C423D8444D00B4B5A6 /* AppDelegate.swift in Sources */,
 				B5E8B5C623D8444D00B4B5A6 /* SceneDelegate.swift in Sources */,
+				B5E8B5DA23D853CA00B4B5A6 /* Post.swift in Sources */,
+				B5E8B5DE23D87E1200B4B5A6 /* User.swift in Sources */,
+				B5E8B5E023D87E3F00B4B5A6 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = be.ehb.TestRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +330,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = be.ehb.TestRest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
