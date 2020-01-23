@@ -18,6 +18,8 @@
 		B5E8B5DC23D85E9100B4B5A6 /* PostCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5DB23D85E9100B4B5A6 /* PostCollectionViewCell.swift */; };
 		B5E8B5DE23D87E1200B4B5A6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5DD23D87E1100B4B5A6 /* User.swift */; };
 		B5E8B5E023D87E3F00B4B5A6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5DF23D87E3F00B4B5A6 /* DetailViewController.swift */; };
+		B5E8B5E423D9D7F000B4B5A6 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B5E8B5E323D9D7F000B4B5A6 /* Settings.bundle */; };
+		B5E8B5E623D9E16A00B4B5A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E8B5E523D9E16A00B4B5A6 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		B5E8B5DB23D85E9100B4B5A6 /* PostCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCollectionViewCell.swift; sourceTree = "<group>"; };
 		B5E8B5DD23D87E1100B4B5A6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B5E8B5DF23D87E3F00B4B5A6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B5E8B5E323D9D7F000B4B5A6 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B5E8B5E523D9E16A00B4B5A6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +54,7 @@
 		B5E8B5B723D8444D00B4B5A6 = {
 			isa = PBXGroup;
 			children = (
+				B5E8B5E323D9D7F000B4B5A6 /* Settings.bundle */,
 				B5E8B5C223D8444D00B4B5A6 /* TestRest */,
 				B5E8B5C123D8444D00B4B5A6 /* Products */,
 			);
@@ -78,6 +83,7 @@
 				B5E8B5DB23D85E9100B4B5A6 /* PostCollectionViewCell.swift */,
 				B5E8B5DD23D87E1100B4B5A6 /* User.swift */,
 				B5E8B5DF23D87E3F00B4B5A6 /* DetailViewController.swift */,
+				B5E8B5E523D9E16A00B4B5A6 /* LoginViewController.swift */,
 			);
 			path = TestRest;
 			sourceTree = "<group>";
@@ -140,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E8B5E423D9D7F000B4B5A6 /* Settings.bundle in Resources */,
 				B5E8B5D023D8444F00B4B5A6 /* LaunchScreen.storyboard in Resources */,
 				B5E8B5CD23D8444F00B4B5A6 /* Assets.xcassets in Resources */,
 				B5E8B5CB23D8444D00B4B5A6 /* Main.storyboard in Resources */,
@@ -153,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5E8B5E623D9E16A00B4B5A6 /* LoginViewController.swift in Sources */,
 				B5E8B5D823D852FB00B4B5A6 /* DAO.swift in Sources */,
 				B5E8B5C823D8444D00B4B5A6 /* ViewController.swift in Sources */,
 				B5E8B5DC23D85E9100B4B5A6 /* PostCollectionViewCell.swift in Sources */,
