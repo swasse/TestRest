@@ -22,7 +22,16 @@ class LoginViewController: UIViewController {
             passwordTF.text = settings.string(forKey: "pref_password")
             rememberSwi.isOn = true
         }
-        
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if userTF.text!.count >= 5 && passwordTF.text!.count >= 5{
+            return true
+        }
+        let alert = UIAlertController.init(title: "Alert", message: "At least 5 haracters required", preferredStyle: .alert)
+        alert.addAction(UIAlertAction.init(title: "M'kay", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+        return false
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
